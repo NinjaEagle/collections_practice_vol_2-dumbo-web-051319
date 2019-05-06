@@ -30,8 +30,8 @@ def first_wa(array)
 end
 
 def remove_non_strings(array)
-  array.each do |ele|
-    array.delete_if { |ele| ele != ele.to_s }
+  array.each do |elements|
+    array.delete_if { |elements| elements != elements.to_s }
   end
 end
 
